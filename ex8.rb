@@ -8,6 +8,6 @@
 def sum_of_cubes(a, b)
   puts (a..b).inject(0) {|sum, cube| sum += cube**3}
 end
-#
+
 sum_of_cubes(3,5) #should be 216
 sum_of_cubes(1,3) #should be 36
