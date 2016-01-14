@@ -6,7 +6,7 @@
 # Example Given range 1 to 3 the method should return 36
 
 def sum_of_cubes(a, b)
-  puts (a..b).inject(0) {|sum, cube| sum += cube**3}
+  (a..b).inject(0) {|sum, cube| sum += cube**3}
 end
 
 sum_of_cubes(3,5) #should be 216
